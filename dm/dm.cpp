@@ -19,20 +19,18 @@ int main(){
     cout << "Enter nubers of elements in sets A, B(n1 - A, n2 - B): ";
     cin >> n1 >> n2;
     ///////////////////////////// array for A & B
-    // cout << "\nEnter numbers for A: ";
+    cout << "\nEnter numbers for A: ";
     for(int i = 0; i < n1; i++){
-        // cin >> num;
-        // a.push_back(num);
-        a.push_back(rand() % 60);
-        // cout << a[i] << " ";
+        cin >> num;
+        a.push_back(num);
+        //a.push_back(rand() % 60);
     }
 
-    // cout << "Enter numbers for B: ";
+    cout << "Enter numbers for B: ";
     for(int i = 0; i < n2; i++){
-        // cin >> num;
-        // b.push_back(num);
-        b.push_back(rand() % 60);
-        // cout << b[i] << " ";
+        cin >> num;
+        b.push_back(num);
+        //b.push_back(rand() % 60);
     }
 
     cout << "A : ";
